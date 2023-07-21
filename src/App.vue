@@ -5,7 +5,11 @@ let pesan3 = ref("Hai!")
 let headName = "<h1> nama saya Athhar</h1>";
 let pesan1 = "Anda membuat halaman ini pada jam " + new Date().toLocaleString();
 let terlihat = true;
-let todos = [{ teks: "belajar JavaScript" }, { teks: "Belajar Vue" }, { teks: "Buat proyek keren" }];
+let todos = [
+              { teks: "belajar JavaScript" },
+              { teks: "Belajar Vue" }, 
+              { teks: "Buat proyek keren" }
+            ];
 let pesan2 = ref("hai vue.js!");
 function balikkanPesan() {
   pesan2.value = pesan2.value.split('').reverse('').join('')
