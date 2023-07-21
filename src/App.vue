@@ -20,8 +20,8 @@ function balikkanPesan() {
 <template>
   <div>
     <!-- message -->
-    <span>{{ msg }}</span
-    ><br />
+    <span>{{ msg }}</span>
+    <br />
       <!-- color -->
     <span style="color: red">ini warna merah</span>
     <br />
